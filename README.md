@@ -5,6 +5,10 @@ A command-line guide for manually building an ELF file, flashing an STM32 target
 - This repository is a fork of metabr's template                              (https://github.com/metabr/stm32-nucleo-f401re-basic-template.git)
 - The following video helps putting the pieces together                       (https://www.youtube.com/watch?v=-p26X8lTAvo)
 
+## Theory .md
+- [Interesting Theory](interesting_theory.md)
+- The file summarizes the full STM32F401RE firmware workflow: how source code is built into an .elf file using a cross-compiler toolchain, how OpenOCD acts as the bridge to the microcontroller, and how GDB is used to debug the target. It also explains the role of the Makefile/CMake build description, the difference between compilation and linking, and why .elf files are preferred for debugging compared to .bin or .hex files.
+
 ## Step 1: Toolchain
 - VSC and its extensions as shown in the video
     - C/C++
