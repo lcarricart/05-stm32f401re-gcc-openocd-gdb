@@ -1,6 +1,5 @@
 # Manual GCC Build, Flash, and Debug Workflow for STM32F401RE
 A command-line guide for manually building an ELF file, flashing an STM32 target, and debugging (without an IDE) using GNU ARM Embedded toolchain. The workflow creates toolchain awareness that transfers directly to Zephyr development.
-=============================
 
 ## References
 This repository is a fork of metabr's template                              (https://github.com/metabr/stm32-nucleo-f401re-basic-template.git)

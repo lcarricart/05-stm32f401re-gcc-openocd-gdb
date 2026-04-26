@@ -1,0 +1,4 @@
+{
+    "cortex-debug.gdbPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gdb.exe",
+    "cortex-debug.openocdPath": "C:/xpack-openocd/xpack-openocd-0.12.0-7/bin/openocd.exe"
+}
